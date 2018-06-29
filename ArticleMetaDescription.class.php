@@ -9,8 +9,8 @@
  *
  * @file
  * @ingroup Extensions
- * @version 1.2
- * @date 15 June 2015
+ * @version 1.2.1
+ * @date 29 June 2018
  * @author Adrian 'ADi' Wieczorek <adi@wikia-inc.com>
  * @link https://www.mediawiki.org/wiki/Extension:ArticleMetaDescription Documentation
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
@@ -56,8 +56,6 @@ class ArticleMetaDescription {
 		if ( !empty( $description ) ) {
 			$out->addMeta( 'description', htmlspecialchars( $description ) );
 		}
-
-		return true;
 	}
 
 }

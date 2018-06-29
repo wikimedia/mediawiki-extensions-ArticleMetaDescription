@@ -1,20 +1,18 @@
 {
 	"name": "ArticleMetaDescription",
-	"version": "1.2",
+	"version": "1.2.1",
 	"author": [
 		"Adrian Wieczorek"
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:ArticleMetaDescription",
 	"description": "Adds <code>&lt;meta description=\"...\" /&gt;</code> tag containing a snippet of the article",
-	"license-name": "GPL-2.0+",
+	"license-name": "GPL-2.0-or-later",
 	"type": "other",
 	"AutoloadClasses": {
 		"ArticleMetaDescription": "ArticleMetaDescription.class.php"
 	},
 	"Hooks": {
-		"OutputPageBeforeHTML": [
-			"ArticleMetaDescription::onOutputPageBeforeHTML"
-		]
+		"OutputPageBeforeHTML": "ArticleMetaDescription::onOutputPageBeforeHTML"
 	},
 	"manifest_version": 1
 }
