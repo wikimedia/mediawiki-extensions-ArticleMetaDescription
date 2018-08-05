@@ -5,9 +5,14 @@
 		"Adrian Wieczorek"
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:ArticleMetaDescription",
-	"description": "Adds <code>&lt;meta description=\"...\" /&gt;</code> tag containing a snippet of the article",
+	"descriptionmsg": "articlemetadescription-desc",
 	"license-name": "GPL-2.0-or-later",
 	"type": "other",
+	"MessagesDirs": {
+		"ArticleMetaDescription": [
+			"i18n"
+		]
+	},
 	"AutoloadClasses": {
 		"ArticleMetaDescription": "ArticleMetaDescription.class.php"
 	},
