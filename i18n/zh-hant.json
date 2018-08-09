@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"articlemetadescription-desc": "添加含有條目片段的 <code>&lt;meta description=\"...\" /&gt;</code> 標籤。"
+}

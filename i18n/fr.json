@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"articlemetadescription-desc": "Ajoute la balise <code>&lt;meta description=\"…\" /&gt;</code> contenant un extrait de l’article."
+}

@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"articlemetadescription-desc": "Додава ознака <code>&lt;meta description=\"...\" /&gt;</code> која содржи извадок од статијата."
+}

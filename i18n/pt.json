@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"articlemetadescription-desc": "Adiciona o elemento <code>&lt;meta description=\"...\" /&gt;</code> com um trecho do artigo."
+}
