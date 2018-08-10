@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98"
+		]
+	},
+	"articlemetadescription-desc": "Voegt een <code>&lt;meta description=\"...\" /&gt;</code> element toe dat een fragment van het artikel bevat."
+}
