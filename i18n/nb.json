@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"articlemetadescription-desc": "Legger til en <code>&lty;meta description=\"…\" /&gt;</code>-tagg som inneholder utdrag av artikkelen."
+}
