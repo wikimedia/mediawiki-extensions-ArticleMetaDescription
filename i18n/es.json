@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jelou"
+		]
+	},
+	"articlemetadescription-desc": "Agrega la etiqueta <code>&lt;meta description=\"...\" /&gt;</code> que contenga un fragmento del artículo."
+}
