@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"articlemetadescription-desc": "Добавляет тег <code>&lt;meta description=\"...\" /&gt;</code>, содержащий фрагмент статьи."
+}
