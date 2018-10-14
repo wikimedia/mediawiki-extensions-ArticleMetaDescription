@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Revi"
+		]
+	},
+	"articlemetadescription-desc": "문서의 단편을 지정하는 <code>&lt;meta description=\"...\" /&gt;</code> 태그를 추가합니다."
+}
