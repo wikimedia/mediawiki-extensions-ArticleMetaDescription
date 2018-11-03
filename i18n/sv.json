@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"articlemetadescription-desc": "Lägger till märket <code>&lt;meta description=\"...\" /&gt;</code> som innehåller ett utdrag av artikeln."
+}
