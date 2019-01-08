@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"articlemetadescription-desc": "Додає тег <code>&lt;meta description=\"...\" /&gt;</code>, який містить уривок статті."
+}
