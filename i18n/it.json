@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"articlemetadescription-desc": "Aggiunge tag <code>&lt;meta description=\"...\" /&gt;</code> contenente un estratto della voce."
+}
