@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kkairri"
+		]
+	},
+	"articlemetadescription-desc": "記事のスニペットを含めた <code>&lt;meta description=\"...\" /&gt;</code> タグを追加する。"
+}
