@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Railfail536"
+			"Railfail536",
+			"Rail"
 		]
 	},
 	"articlemetadescription-desc": "Dodaje tag <code>&lt;meta description=\"...\" /&gt;</code> zawierający fragment artykułu."
