@@ -9,8 +9,8 @@
  *
  * @file
  * @ingroup Extensions
- * @version 1.2.1
- * @date 29 June 2018
+ * @version 1.3.0
+ * @date 25 August 2019
  * @author Adrian 'ADi' Wieczorek <adi@wikia-inc.com>
  * @link https://www.mediawiki.org/wiki/Extension:ArticleMetaDescription Documentation
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
@@ -47,6 +47,20 @@ class ArticleMetaDescription {
 						break;
 					}
 				}
+				if ( !empty( $description ) ) {
+					// FILTHY HACK - clean up Cite citation numbers from the output
+					// e.g. if our $description looks like this before:
+					// 'This is a sentence.[9]', the numbers would then show up in Google
+					// search results, which we obviously don't want. So just regex it out...
+					// @todo Should probably be active only when Cite is? (A fair amount of
+					// wikis have Cite installed, though, which is why no such check exists
+					// here currently.
+					$description = preg_replace(
+						'/\[\d{0,}\]/',
+						'',
+						$description
+					);
+				}
 			}
 		} else {
 			// MediaWiki:Description message found, use it
@@ -54,7 +68,7 @@ class ArticleMetaDescription {
 		}
 
 		if ( !empty( $description ) ) {
-			$out->addMeta( 'description', htmlspecialchars( $description ) );
+			$out->addMeta( 'description', $description );
 		}
 	}
 
