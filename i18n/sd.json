@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Tweety"
+			"Tweety",
+			"Mehtab ahmed"
 		]
 	},
-	"articlemetadescription-desc": "شامل ڪندو <code>&lt;meta description=\"...\" /&gt;</code> ٽيگ جنهن ۾ مضمون جو سنيپٽ هوندو."
+	"articlemetadescription-desc": "<code>&lt;meta description=\"...\" /&gt;</code> ٽيگ وجھي ٿو جنھن ۾ مضمون جو سنيپٽ هوندو."
 }

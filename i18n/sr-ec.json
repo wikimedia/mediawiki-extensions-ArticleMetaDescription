@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Zoranzoki21"
+		]
+	},
+	"articlemetadescription-desc": "Додаје <code>&lt;meta description=\"...\" /&gt;</code> ознаку која садржи исечак чланка."
+}
