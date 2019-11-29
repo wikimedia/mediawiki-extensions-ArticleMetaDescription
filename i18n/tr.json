@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"articlemetadescription-desc": "Makalenin bir pasajını içeren <code>&lt;meta description=\"...\" /&gt;</code> etiketi ekler."
+}
