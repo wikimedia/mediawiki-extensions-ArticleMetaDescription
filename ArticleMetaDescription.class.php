@@ -9,8 +9,8 @@
  *
  * @file
  * @ingroup Extensions
- * @version 1.3.0
- * @date 25 August 2019
+ * @version 1.3.1
+ * @date 2 December 2019
  * @author Adrian 'ADi' Wieczorek <adi@wikia-inc.com>
  * @link https://www.mediawiki.org/wiki/Extension:ArticleMetaDescription Documentation
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
@@ -33,6 +33,8 @@ class ArticleMetaDescription {
 			$tmp = preg_replace( '/<style[^>]*>.*<\/style>/siU', '', $tmp );
 			$tmp = preg_replace( '/<script[^>]*>.*<\/script>/siU', '', $tmp );
 			$tmp = preg_replace( '/\n|\t/', ' ', $tmp );
+			// @todo FIXME: per discussion with bawolff in December 2019, this should
+			// use Sanitizer::stripAllTags instead
 			$tmp = strip_tags( $tmp, '<p>' );
 
 			$matches = null;
@@ -56,7 +58,11 @@ class ArticleMetaDescription {
 					// wikis have Cite installed, though, which is why no such check exists
 					// here currently.
 					$description = preg_replace(
-						'/\[\d{0,}\]/',
+						// 1st part matches numbers like [1]
+						// 2nd part matches HTML-encoded versions, like &amp;#91;1&amp;#93;
+						// 3rd is the one that actually works (thanks, bawolff!)
+						// <bawolff> ashley: maybe your regex is happening before double encoding, but after single
+						'/(\[\d{0,}\]|\&amp;\#91;\d{0,}\&amp;\#93\;|\&\#91;\d*\&\#93;)/',
 						'',
 						$description
 					);
