@@ -14,7 +14,7 @@
 		]
 	},
 	"AutoloadClasses": {
-		"ArticleMetaDescription": "ArticleMetaDescription.class.php"
+		"ArticleMetaDescription": "ArticleMetaDescription.php"
 	},
 	"Hooks": {
 		"OutputPageBeforeHTML": "ArticleMetaDescription::onOutputPageBeforeHTML"

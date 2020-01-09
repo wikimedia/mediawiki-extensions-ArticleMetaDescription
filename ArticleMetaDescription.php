@@ -13,11 +13,15 @@
  * @date 2 December 2019
  * @author Adrian 'ADi' Wieczorek <adi@wikia-inc.com>
  * @link https://www.mediawiki.org/wiki/Extension:ArticleMetaDescription Documentation
- * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
+ * @license GPL-2.0-or-later
  */
 
 class ArticleMetaDescription {
 
+	/**
+	 * @param OutputPage &$out
+	 * @param string &$text
+	 */
 	public static function onOutputPageBeforeHTML( &$out, &$text ) {
 		$message = null;
 		$titleObj = $out->getTitle();
@@ -77,5 +81,4 @@ class ArticleMetaDescription {
 			$out->addMeta( 'description', $description );
 		}
 	}
-
 }
