@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"articlemetadescription-desc": "Adde un etiquetta <code>&lt;meta description=\"...\" /&gt;</code> que contine un extracto del articulo."
+}
