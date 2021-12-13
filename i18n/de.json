@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Metalhead64"
+			"Metalhead64",
+			"Umherirrender"
 		]
 	},
-	"articlemetadescription-desc": "Ergänzt das Tag <code>&lt;meta description=\"...\" /&gt;</code>, das einen Ausschnitt des Artikels enthält."
+	"articlemetadescription-desc": "Ergänzt das Tag <code>&lt;meta description=\"…\" /&gt;</code>, das einen Ausschnitt des Artikels enthält."
 }
