@@ -1,7 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vlad5250"
+			"Winston Sung"
 		]
 	},
 	"articlemetadescription-desc": "Dodaje <code>&lt;meta description=\"...\" /&gt;</code> oznaku koja sadrži isječak članka."
