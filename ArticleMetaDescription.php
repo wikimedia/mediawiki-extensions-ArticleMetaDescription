@@ -32,7 +32,11 @@ class ArticleMetaDescription {
 		}
 
 		if ( ( $message == null ) || wfMessage( 'description' )->inContentLanguage()->isDisabled() ) {
-			$tmp = preg_replace( '/<table[^>]*>.*<\/table>/siU', '', $text );
+			// ashley 6 February 2023: filthy but potentially functional hack: first and foremost get rid of the initial
+			// <div class="mw-parser-output"> so that the "remove all divs" regex below doesn't mutilate
+			// the intro section
+			$tmp = str_replace( '<div class="mw-parser-output">', '', $text );
+			$tmp = preg_replace( '/<table[^>]*>.*<\/table>/siU', '', $tmp );
 			$tmp = preg_replace( '/<div[^>]*>.*<\/div>/siU', '', $tmp );
 			$tmp = preg_replace( '/<style[^>]*>.*<\/style>/siU', '', $tmp );
 			$tmp = preg_replace( '/<script[^>]*>.*<\/script>/siU', '', $tmp );
