@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Xuacu"
+			"Xuacu",
+			"YoaR"
 		]
 	},
-	"articlemetadescription-desc": "Añade la etiqueta <code>&lt;meta description=\"...\" /&gt;</code> que contien un resume del artículu."
+	"articlemetadescription-desc": "Añade la etiqueta <code>&lt;meta description=\"...\" /&gt;</code> que contién un resume del artículu."
 }
