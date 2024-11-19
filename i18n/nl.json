@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mainframe98"
+			"Mainframe98",
+			"McDutchie"
 		]
 	},
-	"articlemetadescription-desc": "Voegt een <code>&lt;meta description=\"...\" /&gt;</code> element toe dat een fragment van het artikel bevat."
+	"articlemetadescription-desc": "Voegt een tag <code>&lt;meta description=\"...\" /&gt;</code> toe, die een knipsel van het artikel bevat."
 }
