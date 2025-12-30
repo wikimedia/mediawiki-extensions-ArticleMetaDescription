@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Daud I.F. Argana"
+			"Daud I.F. Argana",
+			"Penyuwangi"
 		]
 	},
-	"articlemetadescription-desc": "Menambahkan tag <code>&lt;meta description=\"...\" /&gt;</code> yang berisi potongan kecil dari artikel."
+	"articlemetadescription-desc": "Menambahkan tanda <code>&lt;meta description=\"...\" /&gt;</code> yang berisi potongan kecil dari artikel."
 }
