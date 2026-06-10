@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"articlemetadescription-desc": "Pridáva značku <code>&lt;meta description=\"...\" /&gt;</code> obsahujúcu úryvok článku."
+}
