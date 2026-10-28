@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jimkats"
+		]
+	},
+	"articlemetadescription-desc": "Προσθέτει την ετικέτα <code>&lt;meta description=\"...\" /&gt;</code> που περιέχει ένα απόσπασμα του λήμματος."
+}
